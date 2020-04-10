@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+
+    <!-- FONTS STUFFS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"  rel="stylesheet" >
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS STUFFS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" rel="stylesheet">
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/w3.css">
+
+    <!-- jQuery Code -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    
+
+    <!-- Your Server Website Icon (Favicon) -->
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    
+    <!-- Website Title (Will be shown on browser title) -->
+    
+  	<title>Kryptic = Home</title>
+</head>
+<body>        <style>
+.tt-header{
+   background: url(https://i.imgur.com/QAfQ7W7.png);
+
+  background-position: center;
+}
+.tt-footer{
+   background: url(https://i.imgur.com/QAfQ7W7.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}</style>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+        <div id="loader"><span class="loader-inner"></span></div>
+        <div id="loading-text">LOADING...</div>
+    </div>
+
+<!-- Here is where you should start editing -->
+
+
+    <!-- HEADER (MENU + LOGO + IP BAR) -->
+    <header class="tt-header" style="z-index:1000">
+        <div class="container">
+            <div class="top-inner clearfix">
+                <div class="top-inner-container">
+                
+                <!-- LOGO -->
+                
+                    <a class="logo" href="../"><h4 class="tt-banner-title c-h2"><small style="z-index:999">KRYPTIC</small></h4></a>
+                    <button class="cmn-toggle-switch"><span></span></button>
+                </div>
+            </div>
+            
+            <!-- MENU BAR -->
+            <div class="toggle-block">
+                <div class="toggle-block-container">
+                    <nav class="main-nav clearfix">
+                        <ul>
+                            <li class="active"><a href="../"><font color=yellow><b>Home</b></font></a></li>
+
+                            <li >
+                            	<a href="../players"><font color=white>Players</font></a>
+                            </li>
+                           <li><a href="../recipes"><font color=white>Recipes</font></a></li>
+                        <li><a href="../change"><font color=white>Change Logs</font></a></li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Your Server IP Here (Or anything else)-->
+                    
+                    <div class="nav-more">                                                                                                          
+                        <a class="c-btn type-2" href="#"><span>SMP.kryptic.xyz</span><button class="IsCopied btn234 w3-button w3-green">Copy</button></a>
+
+                        
+    <script>
+
+
+    var clipboard = new Clipboard('.btn234', {
+        text: function() {
+            return 'SMP.kryptic.xyz'; // Set your current server IP
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+
+
+    $('.IsCopied').click(function(){
+        var $this = $(this);
+        $this.toggleClass('IsCopied');
+        if($this.hasClass('IsCopied')){
+            $this.text('Copy');         
+        } else {
+            $this.text('Copied');
+        }
+    });
+
+    </script>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="tt-header-margin"></div>    
+
+    <div id="content-wrapper">
+
+        <!-- MAIN SLIDER  (Thanks to idangero.us for their modern slider) -->
+        <div class="swiper-container tt-swiper-shadow" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" data-add-slides="2">
+            <div class="swiper-wrapper clearfix">
+                <div class="swiper-slide active" data-val="0">
+                
+                                                                  <!-- Change Your Slide 1 BG URL here -->
+                
+                    <div class="tt-mslide-3 right background-block" style="background-image:url(https://i.imgur.com/aluww4H.png);">
+                        <div class="container">
+                            <div class="tt-mslide-3-table">
+                                <div class="tt-mslide-3-cell">
+                                    <img  class="tt-mslide-3-img img-responsive" src="https://mc-heads.net/body/pantherlb32" height="576" width="491" alt="" >
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-6">
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <h1 class="c-h1"><font color=white>Come join us on our SMP!</font></h1>
+                                                </div>
+                                            </div>
+                                            <div class="simple-text size-6">
+                                                <p>Build amaing creations just like Pantherlb32 did!</p>
+                                            </div>
+                                            <a class="c-btn type-1 IsCopied btn234" href="#">Come join us now!</a>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="swiper-slide" data-val="1">
+                
+                                                               <!-- Change Your Slide 2 BG URL here -->
+                
+                    <div class="tt-mslide-3 right background-block" style="background-image:url(https://i.imgur.com/IM9hUC5.png);">
+                        <div class="container">
+                            <div class="tt-mslide-3-table">
+                                <div class="tt-mslide-3-cell">
+                                    <img  class="tt-mslide-3-img img-responsive" src="https://mc-heads.net/body/tana_bear_" height="576" width="491" alt="" >
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-6">
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <h1 class="c-h1"><font color=white>Experience your Full Potential</font></h1>
+                                                </div>
+                                            </div>
+                                            <div class="simple-text size-6">
+                                                <p>See how Tana_Bear_ turned a seemingly empty snowy plain into a Viking home with a garden!</p>
+                                            </div>
+                                            <a class="c-btn type-1 IsCopied btn234" href="#">Come join us now!</a>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>                          
+                </div>
+            </div>
+            <div class="pagination type-1 pos-1 visible-xs-block"></div>
+            <div class="swiper-arrow-left tt-arrow-left type-1 pos-1 hidden-xs"><span class="lnr lnr-chevron-left"></span></div>
+            <div class="swiper-arrow-right tt-arrow-right type-1 pos-1 hidden-xs"><span class="lnr lnr-chevron-right"></span></div>                   
+        </div> 
+        
+        
+        
+        <!-- To Add A New Slide. Copy The Code In Grey Below... And at  " <div class="swiper-slide active" data-val="0"> " Take Away 1 From The Slide Number (e.g. Slide Number 3 equals data-val="2")
+        
+        
+        
+         <div class="swiper-slide active" data-val="0"> <-- Slide Number Here (Delete This Message Afterwards)
+                
+                                                             
+                
+                    <div class="tt-mslide-3 background-block" style="background-image:url(img/slider/split1.jpg);">
+                        <div class="container">
+                            <div class="tt-mslide-3-table">
+                                <div class="tt-mslide-3-cell">
+                                
+                                                              
+                                
+                                    <img  class="tt-mslide-3-img img-responsive" src="img/slider/user_2.png" height="576" width="491" alt="" >
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                
+                                                                         
+                                                
+                                                
+                                                    <h1 class="c-h1">Get Impressed by your players</h1>
+                                                </div>
+                                            </div>
+                                            <div class="simple-text size-6">
+                                            
+                                              
+                                            
+                                                <p style="color: #5C5C5C">mine<strong style="text-decoration: underline">ster</strong> helps your server get a better <br/> hipster-looking website. Easy To Edit. Flexible.</p>
+                                            </div>
+                                            <a class="c-btn type-1" href="#">JOIN OUR SERVER NOW! <br>
+                                            
+                                          
+                                            
+                                            IP:  <strong style="color: #5C5C5C"> example.yourserver.com </strong>
+                                            
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        <!-- End Slider -->
+        
+         <!-- BANNER -->
+
+    </div>
+<style>
+    .front
+    {
+      position:absolute;
+      z-index: 2;
+	        left: 155px;
+    }
+    .behind
+    {
+      position:absolute;
+      left: 140px;
+	  top: -15px;
+      z-index: 1;
+    }
+</style>
+        
+        <div class="container">
+            <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+            
+            <!-- TT-SERVICE -->
+
+            <div class="row">
+            
+                <div class="col-md-4">
+                    <div class="tt-service type-4 clearfix">
+                        <a class="tt-service-icon" href="#">
+							                            <img class="front" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/3/31/Enchanting_Table.gif" height="90" width="90" alt="">
+                        <img class="behind" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/9/96/Advancement-fancy-raw.png" height="124" width="120" alt="">
+                        </a>
+                        <div class="tt-service-info">
+                            <a class="tt-service-title c-h4">FAST & RESPONSIVE</a>
+                            <div class="simple-text size-3">
+                                <p>Our server can handle just about anything you can throw at it!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty-space marg-sm-b30"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tt-service type-4 clearfix">
+                        <a class="tt-service-icon" href="#">
+                            <img class="front" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/0/07/Crafting_Table_JE4.png" height="90" width="90" alt="">
+                        <img class="behind" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/9/96/Advancement-fancy-raw.png" height="124" width="120" alt="">
+                        </a>
+                        <div class="tt-service-info">
+                            <a class="tt-service-title c-h4">CUSTOM RECIPES</a>
+                            <div class="simple-text size-3">
+                                <p>We have many custom recipes loaded on the server to improve gameplay.</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="empty-space marg-sm-b30"></div>                   
+                </div>
+                <div class="col-md-4">
+                    <div class="tt-service type-4 clearfix">
+                        <a class="tt-service-icon" href="#">
+                            <img class="front" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/thumb/b/b3/Beacon.png/150px-Beacon.png" height="90" width="90" alt="">
+                        <img class="behind" src="https://gamepedia.cursecdn.com/minecraft_gamepedia/9/96/Advancement-fancy-raw.png" height="124" width="120" alt="">
+                        </a>
+                        <div class="tt-service-info">
+                            <a class="tt-service-title c-h4">AMAZING STAFF</a>
+                            <div class="simple-text size-3">
+                                <p>If you have a problem our staff is there to help you resolve it!</p>
+                            </div>
+                        </div>
+                    </div>              
+                </div>                               
+            </div>
+        </div>
+            
+            
+            
+            
+            
+
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>        
+        <div class="tt-devider"></div>
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+
+       
+        <div class="container">
+            <!-- TT-TITLE -->
+            <div class="tt-title">
+                <div class="tt-title-cat">AN AMAZING EXPERIENCE AWAITS YOU.</div>
+                <h2 class="c-h2"><small>JOIN US IN OUR COMMUNITY DISCORD</small></h2>
+            </div>
+            <div class="empty-space marg-lg-b40 marg-sm-b30"></div>         
+
+            <!-- DONATION PRICING TABLE -->
+           <div class="col-sm-4 text-center"></div>
+               <div class="col-sm-4 text-center">
+<style>
+@keyframes discord {
+	0% {height:70px; width:350px;}
+	 100% {height:500px;width:350px;}
+}
+@keyframes discord-c {
+	0% {height:500px;width:350px;}
+    100% {height:70px; width:350px;}
+}
+.discord {
+	animation-name: discord-c;
+	animation-duration: 2s;
+	animation-play-state: pause;
+	float:left;
+    height:70px;
+	width:350px;
+   
+	
+}
+
+.discord:hover {
+	height:500px;
+	width:350px;
+	float:left;
+	animation-name: discord;
+	animation-duration: 2s;
+	animation-play-state: pause;
+}
+	</style>
+
+<iframe class="discord" src="https://discordapp.com/widget?id=408380092042182671&theme=dark"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="empty-space marg-xs-b30"></div>
+               </div>
+              </div>
+          
+
+
+        </div>
+
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+        <!-- If you want to remove the footer banner, remove line 415 (this line) and line 421 to 434 (assuming you haven't modify the code)
+        <div class="tt-devider"></div>
+        <div class="empty-space marg-lg-b95 marg-sm-b50 marg-xs-b30"></div>
+        
+
+       
+        <!-- BOTTOM-BANNER -->
+        <div class="background-block" style="background-image:url(https://i.imgur.com/g3nDyjh.png);">
+            <div class="container" >
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div>
+                
+             
+                
+                                 
+                <div class="row">
+                    
+                 <div class="tt-title">
+                    <h2 class="c-h2" style="color:#fff"><small>EXPERIENCE AWAITS YOU.</small></h2><br/>
+                    <a class="c-btn type-1 size-3 " href="#" style="z-index:999">JOIN US OUR COMMUNITY DISCORD</a>
+                </div>
+
+                  
+                                   
+                       
+                    </div>
+                </div>
+                <div class="empty-space marg-lg-b120 marg-sm-b50 marg-xs-b30"></div> 
+            </div>
+        </div>
+    </div>
+
+
+       
+
+
+    <!-- FOOTER -->
+    <footer class="tt-footer">
+        <div class="container">
+            <div class="row">
+<center>                <img src="https://i.imgur.com/NQZ3J75.png" height=25% width=25%></center></div>
+            
+        </div>
+    </footer>
+
+    <!-- JS (Don't Mess With It Unless You Know What You're Doing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> <!-- jQuery API -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <!-- Bootstrap -->
+    <script src="js/idangerous.swiper.min.js"></script> <!-- Swiper Slider -->
+    <script src="js/global.js"></script> <!-- Some Effect Stuffs -->
+</body>
+</html>
+
+<!-- That's A Wrap! You're Done Editing! -->
