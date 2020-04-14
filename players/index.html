@@ -27,7 +27,7 @@
 
     <!-- Your Server Website Icon (Favicon) -->
 
-    <link rel="shortcut icon" href="../img/favicon.png" />
+    <link rel="shortcut icon" href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/img/favicon.png" />
     
     <!-- Website Title (Will be shown on browser title) -->
     
@@ -44,7 +44,10 @@
 <!-- Here is where you should start editing -->
 
 
-
+    <script type="text/javascript">
+        // As a jQuery method: $('#myImage').attr('draggable', false);
+document.getElementById('myImage').setAttribute('draggable', false);
+    </script>
 
 
 
@@ -64,7 +67,7 @@
                 
                 <!-- LOGO -->
                 
-                    <a class="logo" href="../"><h4 class="tt-banner-title c-h2"><small style="z-index:999">KRYPTIC</small></h4></a>
+                    <a class="logo" href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/"><h4 class="tt-banner-title c-h2"><small style="z-index:999">KRYPTIC</small></h4></a>
                     <button class="cmn-toggle-switch"><span></span></button>
                 </div>
             </div>
@@ -74,13 +77,13 @@
                 <div class="toggle-block-container">
                     <nav class="main-nav clearfix">
                         <ul>
-                            <li><a href="../"><font color=white>Home</font></a></li>
+                            <li><a href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/"><font color=white>Home</font></a></li>
 
                             <li class="active">
-                            	<a href="../players"><font color=yellow>Players</font></a>
+                            	<a href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/players"><font color=yellow>Players</font></a>
                             </li>
-                            <li><a href="../recipes"><font color=white>Recipes</font></a></li>
-                        <li><a href="../change"><font color=white>Change Logs</font></a></li>
+                            <li><a href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/recipes"><font color=white>Recipes</font></a></li>
+                        <li><a href="https://rawcdn.githack.com/madwolfpack/madwolfpack.github.io/8c9ff43e8bc4979b458d926260f37bb9533ac200/change"><font color=white>Change Logs</font></a></li>
                         </ul>
                     </nav>
                     
@@ -158,17 +161,20 @@
     {
       position:absolute;
 	  top: 125px;
-      left: 5px;
+      left: -75px;
       z-index: 3;
+    text-align:center;
     }
-    .playername
-    {
-      position:absolute;
-	  top: 135px;
-      left: 45px;
-      z-index: 4;
-    }
-	
+
+	.text_over_image {
+    position: absolute;
+ margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+   height:50px;
+}
 	
 
   </style>
@@ -235,9 +241,11 @@
                 <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/madwolfpack/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>madwolfpack</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>madwolfpack</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -249,9 +257,11 @@
                 <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/Ghost_Fenrir/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‏‏‎ ‎Ghost_Fenrir</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>Ghost_Fenrir</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -260,12 +270,14 @@
 			
 				</div>
                 </div>
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/Tana_Bear_/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‏‏‎ ‎‏‏‎ ‎Tana_Bear_</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>Tana_Bear_</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -275,12 +287,62 @@
 				</div>
                 </div>
 				
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/xilef1254/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎‏xilef1254</small></p>
+				<img src="https://minotar.net/armor/bust/MitzyShiya/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>MitzyShiya</small></p>
+				</div>
 				
+				
+				<div class="card">
+				
+				  
+			
+				</div>
+                </div>
+                <div class="col-md-4">   
+				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
+				<img src="https://minotar.net/armor/bust/pantherlb32/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>pantherlb32</small></p>
+				</div>
+				
+				
+				<div class="card">
+				
+				  
+			
+				</div>
+                </div>		
+                <div class="col-md-4">   
+				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
+				<img src="https://minotar.net/armor/bust/Aelar07/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>Aelar07</small></p>
+				</div>
+				
+				
+				<div class="card">
+				
+				  
+			
+				</div>
+                </div>
+                <div class="col-md-4">   
+				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
+				<img src="https://minotar.net/armor/bust/TheSkylar/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>TheSkylar</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -289,12 +351,14 @@
 			
 				</div>
                 </div>	
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/RedCamelot/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎ ‎‎‎‎‏‏‎RedCamelot</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>RedCamelot</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -302,13 +366,15 @@
 				  
 			
 				</div>
-                </div>				
- 				                <div class="col-md-4">   
+                </div>		
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/Eyiri/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‎‎‏‏‎Eyiri</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>Eyiri</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -316,49 +382,7 @@
 				  
 			
 				</div>
-                </div>				
-  				                <div class="col-md-4">   
-				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/TwoUglyCrocs/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎TwoUglyCrocs</small></p>
-				
-				
-				
-				<div class="card">
-				
-				  
-			
-				</div>
-                </div>				
-  				                <div class="col-md-4">   
-				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/RojoM/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ RojoM</small></p>
-				
-				
-				
-				<div class="card">
-				
-				  
-			
-				</div>
-                </div>				
-  				                <div class="col-md-4">   
-				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/polite_ollie/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ polite_ollie</small></p>
-				
-				
-				
-				<div class="card">
-				
-				  
-			
-				</div>
-                </div>				
+                </div>		
 
 
 
@@ -372,10 +396,12 @@
             
                 <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/pantherlb32/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small> ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎‏‏pantherlb32</small></p>
-				
+				<img src="https://minotar.net/armor/bust/xilef1254/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>xilef1254</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -386,10 +412,12 @@
                 </div>
                 <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/PONG_KRELL/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎‏‏‎ ‎‏‏PONG_KRELL</small></p>
-				
+				<img src="https://minotar.net/armor/bust/TwoUglyCrocs/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>TwoUglyCrocs</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -398,12 +426,14 @@
 			
 				</div>
                 </div>
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/TheSkylar/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎‏‏‎ ‎‏‏‎‏‏‎ ‎‏‏‎‏‏‎ ‎‏‏‎‏‏‎ ‎‏‏‎‏‏TheSkylar</small></p>
-				
+				<img src="https://minotar.net/armor/bust/RojoM/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>RojoM</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -413,12 +443,14 @@
 				</div>
                 </div>
 				
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/MitzyShiya/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small> ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎MitzyShiya</small></p>
-				
+				<img src="https://minotar.net/armor/bust/polite_ollie/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>polite_ollie</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -427,12 +459,14 @@
 			
 				</div>
                 </div>	
-				                <div class="col-md-4">   
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/Aelar07/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎ ‎‏‏‎‏‏‎‏‏‎ ‎‏‏‎ ‎‏‏‎‏‏‎‏‏‎ ‎‏‏‎ ‎‏‏‎‏‏ ‎‏‏‎ ‎‏‏‎‏‏Aelar07</small></p>
-				
+				<img src="https://minotar.net/armor/bust/PONG_KRELL/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>PONG_KRELL</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -440,27 +474,15 @@
 				  
 			
 				</div>
-                </div>				
- 				                <div class="col-md-4">   
-				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
-				<img src="https://minotar.net/armor/bust/steve/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ steve</small></p>
-				
-				
-				
-				<div class="card">
-				
-				  
-			
-				</div>
-                </div>				
-  				                <div class="col-md-4">   
+                </div>			
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/steve/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small> ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎steve</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>steve</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -468,13 +490,15 @@
 				  
 			
 				</div>
-                </div>				
-  				                <div class="col-md-4">   
+                </div>	
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/steve/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ steve</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>steve</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -482,13 +506,15 @@
 				  
 			
 				</div>
-                </div>				
-  				                <div class="col-md-4">   
+                </div>			
+                <div class="col-md-4">   
 				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
 				<img src="https://minotar.net/armor/bust/steve/150" class="player">
-				<img src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%" class="banner">
-				<p class="c-h2 playername"><Small>‎‏‏‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ steve</small></p>
-				
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>steve</small></p>
+				</div>
 				
 				
 				<div class="card">
@@ -497,6 +523,22 @@
 			
 				</div>
                 </div>				
+                <div class="col-md-4">   
+				<img src="https://i.imgur.com/DXBQdUh.png" width="75%" height="75%" class="playerbg">
+				<img src="https://minotar.net/armor/bust/steve/150" class="player">
+				<div class="banner">
+			
+				<img  src="https://i.imgur.com/G43vIiU.png" width="75%" height="25%">
+				<p class="c-h2 text_over_image"><Small>steve</small></p>
+				</div>
+				
+				
+				<div class="card">
+				
+				  
+			
+				</div>
+                </div>					
 
 
 
