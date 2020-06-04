@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Kryptic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link href="./css/font.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div id="portal">
+		<div class="logo"></div>
+		<div class="btn btn--infamy" id="CopyInfamy">
+		    <a href="https://www.technicpack.net/modpack/kryptic-infamy.1577764" target="_blank" class="btn-pseudoLink"></a>
+		    <div class="btn-text">
+		        <b>I</b>NFAMY
+				<small ><b class="Splayer-count">?</b> players on infamy.kryptic.xyz</small>
+		        <!--<small >infmay.kryptic.xyz</small>-->
+		    </div>
+		</div>
+		<div class="btn btn--factions" id="CopyFactions">
+		    <a href="#../../../factions" class="btn-pseudoLink"></a>
+		    <div class="btn-text">
+		        <b>F</b>ACTIONS
+				<small ><b class="Splayer-count">?</b> players on factions.kryptic.xyz</small>
+		        <!--<small >factions.kryptic.xyz</small>-->
+		    </div>
+		</div>
+		<div class="btn btn--survival" id="CopySurvival">
+		    <a href="#../../../survival" class="btn-pseudoLink"></a>
+		    <div class="btn-text">
+		        <b>S</b>URVIVAL
+		        <small ><b class="Splayer-count">?</b> players on survival.kryptic.xyz</small>
+		    </div>
+		</div>
+		<div class="btn btn--pixelmon" id="CopyPixelmon">
+		    <a href="#../../../pixelmon" class="btn-pseudoLink"></a>
+		    <div class="btn-text">
+		        <b>P</b>IXELMON
+				<small ><b class="Splayer-count">?</b> players on pixel.kryptic.xyz</small>
+		        <!-- <small >pixel.kryptic.xyz</small>-->
+		    </div>
+		</div>
+	</div>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</body>
+</html>
+
+    <script>
+        let server_ip = ""
+        let server_port = ""
+    </script>
+
+
+            <div id="CopyInfamy">
+                <p>Infamy</p>
+            </div>
+            <div id="CopyFactions">
+                <p>Factions</p>
+            </div>
+            <div id="CopySurvival">
+                <p>Survival</p>
+            </div>
+            <div id="CopyPixelmon">
+                <p>Pixelmon</p>
+            </div>
+
+
+
+<input type="text" id="IpInfamy" value="infamy.kryptic.xyz"/>
+<input type="text" id="IpFactions" value="factions.kryptic.xyz"/>
+<input type="text" id="IpSurvival" value="survival.kryptic.xyz"/>
+<input type="text" id="IpPixelmon" value="pixel.kryptic.xyz"/>
+        
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+
+
+<script>
+    $.getJSON('https://api.minetools.eu/ping/mc.goldcraftmc.org', function (status) {
+        var jucatoriOnline = status.players.online;
+        $(".Iplayer-count").html(((jucatoriOnline = jucatoriOnline.toString().split("."))[0] = jucatoriOnline[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","), jucatoriOnline.join(".")));
+    });
+    $("#CopyInfamy").click(function () {
+    swal({
+      title: "Opening the pack download in a new tab!",
+      text: "Come on our server and dominate them all.",
+      icon: "success",
+      button: "Close",
+      timer: 150000
+    });
+    document.getElementById("IpsInfamy").select(), document.execCommand("copy")
+  });    
+</script>
+<script>
+    $.getJSON('https://api.minetools.eu/ping/mc.goldcraftmc.org', function (status) {
+        var jucatoriOnline = status.players.online;
+        $(".Fplayer-count").html(((jucatoriOnline = jucatoriOnline.toString().split("."))[0] = jucatoriOnline[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","), jucatoriOnline.join(".")));
+    });
+    $("#CopyFactions").click(function () {
+    swal({
+      title: "Copying the server ip!",
+      text: "Come on our server and have some fun",
+      icon: "success",
+      button: "Close",
+      timer: 150000
+    });
+    document.getElementById("IpFactions").select(), document.execCommand("copy")
+  });    
+</script>
+<script>
+    $.getJSON('https://api.minetools.eu/ping/mc.goldcraftmc.org', function (status) {
+        var jucatoriOnline = status.players.online;
+        $(".Splayer-count").html(((jucatoriOnline = jucatoriOnline.toString().split("."))[0] = jucatoriOnline[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","), jucatoriOnline.join(".")));
+    });
+    $("#CopySurvival").click(function () {
+    swal({
+      title: "Copying the server ip!",
+      text: "Come on our server and have some fun",
+      icon: "success",
+      button: "Close",
+      timer: 150000
+    });
+    document.getElementById("IpSurvival").select(), document.execCommand("copy")
+  });    
+</script>
+<script>
+    $.getJSON('https://api.minetools.eu/ping/mc.goldcraftmc.org', function (status) {
+        var jucatoriOnline = status.players.online;
+        $(".Pplayer-count").html(((jucatoriOnline = jucatoriOnline.toString().split("."))[0] = jucatoriOnline[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","), jucatoriOnline.join(".")));
+    });
+    $("#CopyPixelmon").click(function () {
+    swal({
+      title: "Opening the pack download in a new tab!",
+      text: "Gotta catch them all!",
+      icon: "success",
+      button: "Close",
+      timer: 150000
+    });
+    document.getElementById("IpsPixelmon").select(), document.execCommand("copy")
+  });    
+</script>
